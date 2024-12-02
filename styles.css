@@ -313,3 +313,29 @@ section {
   margin-top: 200px; 
   min-height: 600px;
 }
+
+/* Media Queries para dispositivos pequeños */
+@media (max-width: 767px) {
+  #me h1 {
+    font-size: 10vw;  
+  }
+
+  #me h2 {
+    font-size: 5vw;
+  }
+
+  .navbar-brand {
+    font-size: 1.5rem; 
+  }
+  
+  .navbar-nav {
+    font-size: 1rem; 
+  }
+}
+
+/* Para iPhone SE, que tiene una resolución más pequeña */
+@media (max-width: 320px) {
+  #me h1 {
+    font-size: 12vw; 
+  }
+}
